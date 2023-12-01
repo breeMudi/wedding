@@ -31,16 +31,15 @@ body {
 .container {
     flex-direction: column;
     height: max-content;
-    width: 100vw;
-    /* overflow: hidden; */
+    width: 100vw;   
 }
 
 
 .image {
-    height: clamp(300px, 100vh, 600px);
+    height: clamp(300px, 50vh, 600px);
     width: 100vw;
     background-color: #fa9a85;
-    background-image: url(assets/hero2.webp);
+    background-image: url(assets/hero4.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -52,11 +51,10 @@ body {
 .text {
     position: relative;
     overflow: hidden;
-    /* border: 2px solid green; */
 }
 
 .image:hover {
-    background-image: url(assets/hero.webp);
+    background-image: url(assets/hero3.webp);
     background-position: center;
     transition: 2s ease-in;
 }
@@ -101,6 +99,38 @@ body {
     justify-content: center;
     gap: 10px;
 }
+
+button:hover {
+    cursor: pointer;
+    scale: 1.1;
+    font-weight: 900;
+}
+
+.payment {
+    width: 180px;
+    height: 200px;
+    border-radius: 20px;
+    z-index: 1;
+    position: absolute;
+    font-size: 20px;
+    color:#1b401f;
+    bottom: 0px;
+    background-image: linear-gradient(bisque, #34442e);
+    padding: 10px 5px;
+    box-shadow: 7px 10px 46px -5px #000;
+    -webkit-box-shadow: 7px 10px 46px -5px #000;
+    -moz-box-shadow: 7px 10px 46px -5px #000;
+    opacity: 0;
+    transition: 1s ease;
+}
+.payment > * :hover{
+    scale: 1.3;
+}
+
+@keyframes btn {
+    from {background-color: #34442e; font-weight: 900;}
+    to {background-color: #fa9a85; scale: 1.2; font-weight: 700;}
+  }
 
 @media (min-width:700px){
     body {
