@@ -40,10 +40,10 @@ body {
     height: clamp(300px, 100vh, 600px);
     width: 100vw;
     background-color: #fa9a85;
-    background-image: url(assets/hero.webp);
+    background-image: url(assets/hero2.webp);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
     box-shadow: 7px 10px 46px -5px #922d7a;
     -webkit-box-shadow: 7px 10px 46px -5px #922d7a;
     -moz-box-shadow: 7px 10px 46px -5px #922d7a;
@@ -56,8 +56,8 @@ body {
 }
 
 .image:hover {
-    background-image: url(assets/hero2.webp);
-    background-position: center;
+    background-image: url(assets/hero.webp);
+    background-position: top;
     transition: 2s ease-in;
 }
 
