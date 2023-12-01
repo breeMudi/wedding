@@ -43,7 +43,7 @@ body {
     background-image: url(assets/hero2.webp);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     box-shadow: 7px 10px 46px -5px #922d7a;
     -webkit-box-shadow: 7px 10px 46px -5px #922d7a;
     -moz-box-shadow: 7px 10px 46px -5px #922d7a;
@@ -57,7 +57,7 @@ body {
 
 .image:hover {
     background-image: url(assets/hero.webp);
-    background-position: top;
+    background-position: center;
     transition: 2s ease-in;
 }
 
