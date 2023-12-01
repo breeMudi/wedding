@@ -39,7 +39,7 @@ body {
     height: clamp(300px, 50vh, 600px);
     width: 100vw;
     background-color: #fa9a85;
-    background-image: url(assets/hero4.webp);
+    background-image: url(assets/hero2.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -54,7 +54,7 @@ body {
 }
 
 .image:hover {
-    background-image: url(assets/hero3.webp);
+    background-image: url(assets/hero.webp);
     background-position: center;
     transition: 2s ease-in;
 }
